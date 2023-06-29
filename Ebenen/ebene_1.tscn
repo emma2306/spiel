@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://chwvqha88xhg4" path="res://Charakter/Spieler/spieler.tscn" id="2_bjkro"]
 [ext_resource type="Texture2D" uid="uid://cb4c66ljnojjm" path="res://tilemaps/path tilemapv2.png" id="3_57yjf"]
 [ext_resource type="PackedScene" uid="uid://bwgex1jlhcxfi" path="res://Charakter/NPC/npc.tscn" id="4_d6lvn"]
-[ext_resource type="AudioStream" uid="uid://2pjhxbh6yq2" path="res://Minecraft.ogg.ogg" id="6_xk066"]
+[ext_resource type="AudioStream" uid="uid://2pjhxbh6yq2" path="res://Musik/Minecraft.ogg.ogg" id="6_xk066"]
 [ext_resource type="Script" path="res://Ebenen/AudioStreamPlayer2D.gd" id="7_81vd5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e6wkl"]

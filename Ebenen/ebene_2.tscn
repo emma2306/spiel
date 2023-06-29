@@ -1,11 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://bq13m4h8o27hs"]
+[gd_scene load_steps=10 format=3 uid="uid://bq13m4h8o27hs"]
 
 [ext_resource type="Script" path="res://Ebenen/ebene_2.gd" id="1_qhfgk"]
 [ext_resource type="PackedScene" uid="uid://dqcwu346fpfq3" path="res://GameManager/gameManager.tscn" id="1_y8r5b"]
 [ext_resource type="PackedScene" uid="uid://chwvqha88xhg4" path="res://Charakter/Spieler/spieler.tscn" id="2_yy5o1"]
 [ext_resource type="Texture2D" uid="uid://cb4c66ljnojjm" path="res://tilemaps/path tilemapv2.png" id="3_t88a1"]
-[ext_resource type="AudioStream" uid="uid://2pjhxbh6yq2" path="res://Minecraft.ogg.ogg" id="5_w3lye"]
+[ext_resource type="AudioStream" uid="uid://2pjhxbh6yq2" path="res://Musik/Minecraft.ogg.ogg" id="5_w3lye"]
 [ext_resource type="Script" path="res://Ebenen/AudioStreamPlayer2D.gd" id="6_vamjy"]
+[ext_resource type="AudioStream" uid="uid://buynba4omc4aa" path="res://Musik/unheimlicheMusik.mp3" id="7_x8ikk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e6wkl"]
 texture = ExtResource("3_t88a1")
@@ -73,3 +74,6 @@ layer_0/tile_data = PackedInt32Array(0, 327680, 5, 1, 327680, 5, 2, 327680, 3, 3
 stream = ExtResource("5_w3lye")
 volume_db = 24.0
 script = ExtResource("6_vamjy")
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_x8ikk")

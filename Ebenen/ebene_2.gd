@@ -7,6 +7,6 @@ func _ready():
 
 
 func _process(delta):
-	if $AudioStreamPlayer2D.playing == false:
-		$AudioStreamPlayer2D.play()
+	if $AudioStreamPlayer2D2.playing == false:
+		$AudioStreamPlayer2D2.play()
 pass
